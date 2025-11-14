@@ -13,7 +13,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 ## 📸​ Screenshots
 
 
-![App Screenshot](https://snipboard.io/pYF9si.jpg)
+![App Screenshot](https://snipboard.io/w0MNbl.jpg)
  
 
 
