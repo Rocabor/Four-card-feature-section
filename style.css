@@ -1,0 +1,174 @@
+/*/////////////////////////// VARIABLES ///////////////////////*/
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --Grey-500: hsl(234, 12%, 34%);
+  --Grey-400: hsl(212, 6%, 44%);
+  --White: hsl(0, 0%, 100%);
+  --text-1: normal 600 24px/1.4 "poppins", sans-serif;
+  --text-2: normal 200 24px/1.4 "poppins", sans-serif;
+  --text-3: normal 600 20px/1.35 "poppins", sans-serif;
+  --text-4: normal 400 15px/1.4 "poppins", sans-serif;
+  --text-5: normal 400 13px/1.6 "poppins", sans-serif;
+}
+/* ///////////////////////PARAM GLOBAL//////////////////////// */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ///////////////////MAIN MOVIL 375px SCREEN////////////////// */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--White);
+  gap: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 316px;
+  height: 147px;
+  gap: 16px;
+}
+
+.title-wrapper h1 {
+  font: var(--text-2);
+  color: var(--Grey-500);
+  text-align: center;
+}
+
+.title-wrapper span {
+  font: var(--text-1);
+  color: var(--Grey-500);
+}
+
+.title-wrapper p {
+  font: var(--text-4);
+  color: var(--Grey-500);
+  text-align: center;
+}
+/* ///////////////////////////CARD-WRAPPER////////////////////// */
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 314px;
+  height: auto;
+}
+/* //////////////////////////CONTENTS WRAPPER//////////////////// */
+.card-wrapper h2 {
+  font: var(--text-3);
+  color: var(--Grey-500);
+}
+
+.card-wrapper span {
+  font: var(--text-5);
+  color: var(--Grey-400);
+  display: block;
+  margin-top: 6px;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 314px;
+  height: 250px;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: var(--White);
+  align-items: end;
+  justify-content: space-between;
+  filter: drop-shadow(5px 5px 10px rgba(131, 166, 210, 0.5));
+}
+
+.cont-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+img {
+  width: 64px;
+}
+
+.card-1 {
+  border-top: 4px solid var(--Cyan);
+  order: 0;
+}
+.card-2 {
+  border-top: 4px solid var(--Red);
+  order: 0;
+}
+.card-3 {
+  border-top: 4px solid var(--Orange);
+  order: 1;
+}
+.card-4 {
+  border-top: 4px solid var(--Blue);
+  order: 1;
+}
+/* ////////////////////////// FOOTER ////////////////////////////// */
+
+.attribution {
+  font-size: 15px;
+  text-align: center;
+}
+.attribution a {
+  font: var(--text-5);
+  color: var(--Blue);
+}
+
+/* //////////////////////////TABLET 768px SCREEN//////////////////// */
+@media (min-width: 768px) {
+  .content {
+    gap: 74px;
+  }
+  .title-wrapper {
+    width: 540px;
+    height: 158px;
+  }
+  .title-wrapper h1,
+  .title-wrapper span {
+    font-size: 36px;
+  }
+  .card-wrapper {
+    width: 600px;
+    height: 814px;
+    align-items: center;
+  }
+
+  .cont-wrapper {
+    flex-direction: row;
+  }
+}
+/* //////////////////////////DESKTOP 1440px SCREEN//////////////////// */
+@media (min-width: 1440px) {
+  .card-wrapper {
+    width: 1114px;
+    height: 532px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .cont-wrapper {
+    flex-direction: column;
+  }
+}
