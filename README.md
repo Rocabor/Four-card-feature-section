@@ -17,7 +17,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ## 🔗 🌎​ Live site URL
 
-[Product preview card component solution](https://rocabor.github.io/Four-card-feature-section/)
+[Four card feature section solution](https://rocabor.github.io/Four-card-feature-section/)
 
 
 ## 🛠️ Built with
