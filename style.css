@@ -150,7 +150,7 @@ img {
     height: 9.875rem;
   }
   .title-wrapper h1,
-  .title-wrapper span {
+  .title-wrapper strong {
     font-size: 2.25rem;
   }
   .card-wrapper {
