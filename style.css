@@ -52,7 +52,7 @@ body {
   text-align: center;
 }
 
-.title-wrapper span {
+.title-wrapper strong {
   font: var(--text-1);
   color: var(--Grey-500);
 }
