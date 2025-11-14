@@ -6,8 +6,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 ![Static Badge](https://img.shields.io/badge/NEWBIE-%23ffffff?style=for-the-badge&label=1&labelColor=%2306B6D4&color=%23ffffff)
 ![Static Badge](https://img.shields.io/badge/html5-%23E34F26?style=for-the-badge&logo=html5&logoColor=%23ffffff)
 ![Static Badge](https://img.shields.io/badge/css-%23663399?style=for-the-badge&logo=css)
-![Static Badge](https://img.shields.io/badge/sass-%23CC6699?style=for-the-badge&logo=sass&logoColor=%23ffffff)
-
 
 
 ## 📸​ Screenshots
@@ -19,7 +17,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ## 🔗 🌎​ Live site URL
 
-[Product preview card component solution](https://rocabor.github.io/Rocabor-Product_preview_card_component/)
+[Four card feature section solution](https://rocabor.github.io/Four-card-feature-section/)
 
 
 ## 🛠️ Built with
